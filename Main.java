@@ -32,6 +32,15 @@ public class Main {
 
     veleiro1.verificarTamanho();
     veleiro2.verificarTamanho();
+	    
+
+      if (iate1.compareTo(iate2) > 0) {
+        System.out.println("Iate1 é mais luxuoso que o Iate2.");
+    } else if (iate1.compareTo(iate2) < 0) {
+        System.out.println("Iate2 é mais luxuoso que o Iate1");
+    } else {
+        System.out.println("Ambos iates são luxuosos!");
+    }
 
     System.out.println(iate1.compareTo(iate2));
     System.out.println(iate2.compareTo(iate1));
